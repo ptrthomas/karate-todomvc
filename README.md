@@ -9,6 +9,7 @@ This is the [React TodoMVC](http://todomvc.com/examples/react/) sample re-writte
 * All code can fit into a single HTML file with extra logic within `<script ka:lang="js"></script>` tags
 * AJAX and partial DOM rendering powered by [htmx](https://htmx.org)
 * Server-side JS powered by [Graal JS](https://www.graalvm.org)
+* Server powered by [Armeria](https://armeria.dev)
 * Hot reload
 * Only a JRE needed
 * App (including static resources) can run serverless / within an AWS Lambda

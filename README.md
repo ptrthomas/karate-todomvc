@@ -5,18 +5,19 @@ This is the [React TodoMVC](http://todomvc.com/examples/react/) sample re-writte
 
 ## Features:
 * HTML rendered server-side (using [Thymeleaf](https://www.thymeleaf.org))
-* Pure-HTML (preview-able) templates (inspired by [Apache Wicket](https://wicket.apache.org))
-* All code can fit into a single HTML file with extra logic within `<script ka:lang="js"></script>` tags
+* Pure-HTML, XD and IDE-friendly, preview-able templates (inspired by [Apache Wicket](https://wicket.apache.org))
+* All code for a "view" can fit in a single HTML file with extra logic within `<script ka:lang="js"></script>` tags
+* Compose complex views out of re-usable HTML templates
 * AJAX and partial DOM rendering powered by [htmx](https://htmx.org)
 * Server-side JS powered by [Graal JS](https://www.graalvm.org)
 * Server powered by [Armeria](https://armeria.dev)
-* Hot reload
+* Hot reload !
 * Only a JRE needed
-* App (including static resources) can run serverless / within an AWS Lambda
-* Pluggable HTTP-session store (can be wired up to e.g. DynamoDB with little effort)
+* Can run serverless / within an AWS Lambda
+* Pluggable HTTP-session store (can be wired up to e.g. DynamoDB with very little effort)
 * also see: https://twitter.com/ptrthomas/status/1335611577270038528
 
-# Instructions
+## Running Locally
 * clone this repository: `git clone https://github.com/ptrthomas/karate-todomvc.git`
 * download `karate-0.9.9.RC2.jar` from [here](https://dl.bintray.com/ptrthomas/karate/) (or use jbang, see below)
 * rename it to `karate.jar`, place it in the same folder as the files from git

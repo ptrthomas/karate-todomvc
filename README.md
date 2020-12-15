@@ -4,12 +4,12 @@ This is the [React TodoMVC](http://todomvc.com/examples/react/) sample re-writte
 "KarateJS" is a simple server-side framework that requires you to only write HTML and JS and nothing else.
 
 ## Features:
-* HTML rendered server-side (using [Thymeleaf](https://www.thymeleaf.org))
-* Pure-HTML, XD and IDE-friendly, preview-able templates (inspired by [Apache Wicket](https://wicket.apache.org))
-* All code for a "view" can fit in a single HTML file with extra logic within `<script ka:lang="js"></script>` tags
+* Pure-HTML, XD-friendly preview-able templates powered by [Thymeleaf](https://www.thymeleaf.org)
 * Compose complex views out of re-usable HTML templates
 * AJAX and partial DOM rendering powered by [htmx](https://htmx.org)
 * Server-side JS powered by [Graal JS](https://www.graalvm.org)
+* All code for a "view" can fit in a single HTML file
+* ES6 JS can be included within IDE-friendly `<script>` tags
 * Server powered by [Armeria](https://armeria.dev)
 * Hot reload !
 * Only a JRE needed

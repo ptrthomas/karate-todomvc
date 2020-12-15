@@ -11,6 +11,7 @@ This is the [React TodoMVC](http://todomvc.com/examples/react/) sample re-writte
 * All code for a "view" can fit in a single HTML file
 * ES6 JS can be included within IDE-friendly `<script>` tags
 * Server powered by [Armeria](https://armeria.dev)
+* CLI powered by [picocli](https://picocli.info)
 * Hot reload !
 * Only a JRE needed
 * Can run serverless / within an AWS Lambda
@@ -18,7 +19,7 @@ This is the [React TodoMVC](http://todomvc.com/examples/react/) sample re-writte
 * also see: https://twitter.com/ptrthomas/status/1335611577270038528
 
 ## Running Locally
-* clone this repository: `git clone https://github.com/ptrthomas/karate-todomvc.git`
+* clone this repository: `git clone https://github.com/ptrthomas/karate-todomvc.git` or [download a ZIP](https://github.com/ptrthomas/karate-todomvc/archive/main.zip)
 * download `karate-0.9.9.RC2.jar` from [here](https://dl.bintray.com/ptrthomas/karate/) (or use jbang, see below)
 * rename it to `karate.jar`, place it in the same folder as the files from git
 * Java (only a [JRE](http://www.oracle.com/technetwork/java/javase/downloads/index.html) is needed)

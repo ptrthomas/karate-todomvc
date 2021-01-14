@@ -24,7 +24,7 @@ This is the [React TodoMVC](http://todomvc.com/examples/react/) sample re-writte
   * if jbang installed run: `jbang karate -S`
   * if not installed: `curl -Ls https://sh.jbang.dev | bash -s - karate -S`
 * Manually:
-  * Download `karate-0.9.9.RC2.jar` from [here](https://dl.bintray.com/ptrthomas/karate/)
+  * Download `karate-0.9.9.RC3.jar` from [here](https://dl.bintray.com/ptrthomas/karate/)
   * rename it to `karate.jar`, place it in the same folder as the files from git
   * Java (only a [JRE](http://www.oracle.com/technetwork/java/javase/downloads/index.html) is needed)
     * `java -jar karate.jar -S`

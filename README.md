@@ -16,7 +16,7 @@ This is the [React TodoMVC](http://todomvc.com/examples/react/) sample re-writte
 * Only a JRE needed
 * Can run serverless / within an AWS Lambda
 * Pluggable HTTP-session store (can be wired up to e.g. DynamoDB with very little effort)
-* also see: https://twitter.com/ptrthomas/status/1335611577270038528
+* also see [this tweet](https://twitter.com/ptrthomas/status/1335611577270038528) and [this one](https://twitter.com/KarateDSL/status/1434487117426532356) too
 
 ## Running Locally
 * clone this repository: `git clone https://github.com/ptrthomas/karate-todomvc.git` or [download a ZIP](https://github.com/ptrthomas/karate-todomvc/archive/main.zip)
@@ -24,11 +24,11 @@ This is the [React TodoMVC](http://todomvc.com/examples/react/) sample re-writte
   * if jbang installed run: `jbang karate -S`
   * if not installed: `curl -Ls https://sh.jbang.dev | bash -s - karate -S`
 * Manually:
-  * Download `karate-0.9.9.RC3.jar` from [here](https://dl.bintray.com/ptrthomas/karate/)
+  * Download `karate-1.1.0.jar` from [here](https://github.com/intuit/karate/releases/tag/v1.1.0)
   * rename it to `karate.jar`, place it in the same folder as the files from git
   * Java (only a [JRE](http://www.oracle.com/technetwork/java/javase/downloads/index.html) is needed)
     * `java -jar karate.jar -S`
-* or Docker
+* or Docker (and Java does not need to be installed)
   * `docker run --rm -v "$PWD":/src -w /src -p 8080:8080 openjdk:8 java -jar karate.jar -S`
 * navigate to [http://localhost:8080](http://localhost:8080) to view the app
 * you can add `-p` to change the port number if needed e.g. `-p 8000`
